@@ -1,8 +1,6 @@
 package com.example.helloandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,17 +10,14 @@ public class SecondActivity extends AppCompatActivity {
 
     private static final String TAG = "SecondActivity";
 
-=======
 import android.os.Bundle;
 
 public class SecondActivity extends AppCompatActivity {
 
->>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-<<<<<<< HEAD
 
         Button button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
@@ -32,7 +27,5 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-=======
->>>>>>> origin/master
     }
 }
