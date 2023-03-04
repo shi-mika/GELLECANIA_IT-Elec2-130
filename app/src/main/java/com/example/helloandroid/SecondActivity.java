@@ -10,10 +10,6 @@ public class SecondActivity extends AppCompatActivity {
 
     private static final String TAG = "SecondActivity";
 
-import android.os.Bundle;
-
-public class SecondActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
